@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('resources/forestTypeTraining.csv')
+df = pd.read_csv('resources/pima-indians-diabetes.csv')
 df.describe()
 
 studentDF=pd.DataFrame(np.array([['John', 'Bob', 'Matt', 'Mary'],['William', 'Hopkins', 'Anderson', 'Kaiser'],[9,8,10,11],[56,64,67,88]]))

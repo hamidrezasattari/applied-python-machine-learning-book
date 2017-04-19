@@ -19,4 +19,3 @@ studentDFCleaned_1=studentDF.dropna(thresh=2)
 studentDFCleaned_2=studentDF.dropna(subset=["age"])
 
 studentDF[(studentDF.age >= 10)]
-#df[df['value'].apply(np.isnan)]
