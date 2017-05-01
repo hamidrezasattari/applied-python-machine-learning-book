@@ -1,3 +1,4 @@
+#stdNormalization.py
 from sklearn import preprocessing
 import numpy as np
 X = np.array([[ 5., -6.,  10.],[ 12.,  0.,  10.],[ 0.,  12., -11.]])
