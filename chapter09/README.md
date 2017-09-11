@@ -31,9 +31,9 @@ http://localhost:6006/#graphs
 
  rm -rf output/
 
-# follow same procedure with linear_regression.ipynb
+#follow same procedure with linear_regression.ipynb
 
-**************
+********************************
 #CIFAR-10 image classifier
 
 #Go to this chapter folder
