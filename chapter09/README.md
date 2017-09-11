@@ -78,10 +78,15 @@ root@...:/test_files/test_classify/models/tutorials/image/imagenet#python classi
 #this shows
 
 Successfully downloaded inception-2015-12-05.tgz 88931400 bytes.
+
 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.89107)
+
 indri, indris, Indri indri, Indri brevicaudatus (score = 0.00779)
+
 lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.00296)
+
 custard apple (score = 0.00147)
+
 earthstar (score = 0.00117)
 
 
@@ -94,9 +99,13 @@ python classify_image.py --image_file /test_files/resources/classificationTestIm
 #this shows
 
 brown bear, bruin, Ursus arctos (score = 0.92993)
+
 bottlecap (score = 0.00248)
+
 American black bear, black bear, Ursus americanus, Euarctos americanus (score = 0.00157)
+
 giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.00104)
+
 sloth bear, Melursus ursinus, Ursus ursinus (score = 0.00103)
 
 *********************************************************************
@@ -123,8 +132,11 @@ root@...:/tensorflow# python tensorflow/examples/image_retraining/retrain.py \
 #shows
 
 INFO:tensorflow:2017-09-07 15:08:12.871746: Step 499: Train accuracy = 100.0%
+
 INFO:tensorflow:2017-09-07 15:08:12.871894: Step 499: Cross entropy = 0.051683
+
 INFO:tensorflow:2017-09-07 15:08:12.924579: Step 499: Validation accuracy = 100.0% (N=100)
+
 INFO:tensorflow:Final test accuracy = 100.0% (N=2)
 
 root@...:/tensorflow# cd /test_files/test_retrain/
@@ -134,6 +146,7 @@ root@..:/test_files/test_retrain#  python detect_skin.py  /test_files/resources/
 #shows
 
 benign (score 0.96667)
+
 malignant (score 0.03333)
 
 
