@@ -20,7 +20,7 @@ http://localhost:8888/?token=......
 
 #Ctrl+C
 
-# /notebooks/output is the output of saved graph
+#/notebooks/output is the output of saved graph
 
 root@......:/notebooks#tensorboard --logdir /notebooks/output
 #browse
