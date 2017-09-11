@@ -109,7 +109,7 @@ giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca (score = 0.001
 sloth bear, Melursus ursinus, Ursus ursinus (score = 0.00103)
 
 *********************************************************************
-# Retrain Inception's Final Layer for to classify Benign and Malignant Melanoma
+# Retrain Inception's Final Layer to classify Benign and Malignant Melanoma
 
 #Go to follwoing folder
 
