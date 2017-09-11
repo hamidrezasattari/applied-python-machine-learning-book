@@ -2,7 +2,7 @@
 
 ******************************************
 
-#To run a Tensorflow program and view  graphin TensorBoard
+# To run a Tensorflow graph and view it in TensorBoard
 
 #Go to this chapter folder
 
@@ -34,7 +34,7 @@ http://localhost:6006/#graphs
 #follow same procedure with linear_regression.ipynb
 
 ********************************
-#CIFAR-10 image classifier
+# CIFAR-10 image classifier
 
 #Go to this chapter folder
 
@@ -52,7 +52,7 @@ root@......:/notebooks# ipython notebook  --allow-root
 
 ************************************
 
-#Image classification
+# Image classification
 
 #Go to this chapter folder
 
