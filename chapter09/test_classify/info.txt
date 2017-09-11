@@ -1,0 +1,12 @@
+#Image classification
+#Go to this chapter folder
+cd chapter_09_folder_path
+#Clone tensorflow model from git
+cd test_classify
+git clone https://github.com/tensorflow/models.git
+cd ..
+docker run -it -p 8888:8888  -v /$(pwd):/test_files    gcr.io/tensorflow/tensorflow:latest-devel
+root@...:~# cd /test_files/test_classify/models/tutorials/image/imagenet
+
+#to download Inception Module and run internal test image
+root@...:/test_files/test_classify/models/tutorials/image/imagenet#python classify_image.py
